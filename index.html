@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1 style="text-align: center; color: rgb(214, 209, 149);">Library Management System</h1>
+  <div class="container">
+
+    <h2>Add Book</h2>
+    <form id="addBookForm">
+      <input type="text" id="title" placeholder="Title" required>
+      <input type="text" id="author" placeholder="Author" required>
+      <input type="number" id="pages" placeholder="Pages" required>
+      <input type="text" id="genre" placeholder="Genre" required>
+      <button type="submit"><b>Add Book</b></button>
+    </form>
+
+    <h2>Search Books</h2>
+    <input type="text" id="searchInput" placeholder="Search by Title">
+    <button onclick="searchBooks()"><b>Search</b><i class="fa-solid fa-magnifying-glass" style="margin-left: 6px;"></i></button>
+
+    <h2>Books</h2>
+    <div id="bookList"></div>
+    <p id="noResults" style="display: none; font-size:20px;"><b>Sorry, No books found.</b></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

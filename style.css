@@ -1,0 +1,40 @@
+body{
+    background-image: url("./img-open-bk.avif");
+    background-size: cover;
+}
+h1{
+  font-size: 51px;
+margin-top: 0px;
+font-family: "Sofia", sans-serif;
+}
+.container {
+    color: rgb(40, 6, 15);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 8%;
+    background-color: rgba(22, 82, 22, 0.3);
+    backdrop-filter: blur(2.3px);
+    border-radius: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  #bookList {
+    margin-top: 10px;
+  }
+  
+  #noResults {
+    color: rgb(147, 17, 17);
+  }
+  
